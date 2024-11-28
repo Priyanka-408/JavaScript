@@ -1,0 +1,15 @@
+                                                                                                    Module9(JAVASCRIPT BASIC & DOM) - 4
+
+
+
+Q-1=>What is JavaScript?
+Ans->JavaScript is a scripting  language that enables you to create dynamically updating content, control multimedia , animate images, and pretty much everything else.
+
+Q2=>What is the use of isNaN function?
+Ans->isNAN() return true if a number is Not-a-Number. In other words: isNaN() converts the value to a number before testing it.
+
+Q3=>What is negative Infinity?
+Ans->Negative Infinity is a special numeric value that is returned when an arithmetic operation or mathematical function generates a negative value greater than the largest representable number in JavaScript.
+
+Q4=>Which company developed JavaScript?
+Ans->Netscape Communication Corporation developed JavaScript in 1995. Brendan Eich, an employee at Netscape, created  the language to make web pages more interactive.
