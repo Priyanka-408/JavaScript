@@ -1,3 +1,4 @@
+
                                                                                                     Module9(JAVASCRIPT BASIC & DOM) - 4
 
 
@@ -13,3 +14,48 @@ Ans->Negative Infinity is a special numeric value that is returned when an arith
 
 Q4=>Which company developed JavaScript?
 Ans->Netscape Communication Corporation developed JavaScript in 1995. Brendan Eich, an employee at Netscape, created  the language to make web pages more interactive.
+
+Q5=>What are undeclared and undefined variables? 
+Ans->Undeclared Variable:- It is a variable that is not declared
+          Undefine Variable:-It is one that is declared without any value or not declared.
+
+Q6=> Write the code for adding new elements dynamically? 
+Ans->
+
+Q7=>What is the difference between ViewState and SessionState?  
+Ans->   ViewState:-It is used for the client-side state management, allowing the client to maintain the state    information directly on their browser. 
+   
+            SessionState:-It manage the state of the server side, enabling the server to store user-specific data throughout a session.
+
+
+Q9=>What is === operator? 
+Ans->=== this is a comparison  operator which check that value and the datatype both are equal or not.
+
+Q10=>How can the style/class of an element be changed?  
+Ans->Use method like:-
+             document.getElementById()
+                            OR
+            document.queryelector()
+
+      <script>
+                     //target the element you want to apply css using ID or Class
+                             var carlElement = document.getElementByClassName("cardStructure");
+
+                             //change the card border radius
+                       cardElement.style.borderRadius = "10px";
+
+
+</script>
+
+
+Q11=>How to read and write a file using JavaScript?  
+Ans->It can perform operation of reading and writing file through some method are:-
+                fs.readFile()  and rs.writeFile() methods are used to read and write of a file using javascript. 
+ 
+
+
+
+
+
+
+
