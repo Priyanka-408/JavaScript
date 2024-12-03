@@ -28,10 +28,10 @@ Ans->   ViewState:-It is used for the client-side state management, allowing the
             SessionState:-It manage the state of the server side, enabling the server to store user-specific data throughout a session.
 
 
-Q9=>What is === operator? 
+Q8=>What is === operator? 
 Ans->=== this is a comparison  operator which check that value and the datatype both are equal or not.
 
-Q10=>How can the style/class of an element be changed?  
+Q9=>How can the style/class of an element be changed?  
 Ans->Use method like:-
              document.getElementById()
                             OR
@@ -48,9 +48,108 @@ Ans->Use method like:-
 </script>
 
 
-Q11=>How to read and write a file using JavaScript?  
+Q10=>How to read and write a file using JavaScript?  
 Ans->It can perform operation of reading and writing file through some method are:-
                 fs.readFile()  and rs.writeFile() methods are used to read and write of a file using javascript. 
+
+
+Q11=>What are all the looping structures in JavaScript? 
+Ans->Looping Structure of JavaScript are:-
+          i:-For Loop
+          for(initialization; condition ;increment){
+
+                 code...........
+
+        }
+   
+       ii:-while Loop
+            initialization;
+          while(condition){
+               loop statement.....
+                    increment/decrement
+          
+        }
+
+      iii:-do-while Loop
+          initialization;
+         do{
+                 code..........
+            }
+         while(condition);
+
+    iv:-for-in Loop
+           for(let variable_name in object_name){
+                      //code.........
+            }
+      
+      
+      v:-for-of Loop
+          for(let variable_name of object_name){
+                   //code.........
+           }
+         
+     vi:-for-each Loop
+          array.forEach(function(currentValue, index, arr), thisValue)
+
+
+Q12=> How can you convert the string of any base to an integer in JavaScript?  
+Ans->You can use the built-in parseInt function to convert a string of any base to an integer.
+
+        syntax:-
+        parseInt(string, radix)
+
+
+Q13=>What is the function of the delete operator?  
+Ans->The delet operator in JavaScript is used to remove properties from an object. It does not delete variable, functions, or anything else.
+          syntax:-
+           delete object.property
+           delete object["property"]
+
+
+Q14=>What are all the types of Pop up boxes available in JavaScript? 
+Ans->Alert Box
+            - Display a message to the user.
+           - Typically used to provide information or warning.
+          - It has an "OK" button to close the popup.
+
+     Confirm Box
+            - Display a message with "OK" and "Cancel" buttons.
+           - Used to confirm user actions, returning true for "OK" and false for "Cancle"
+
+     Prompt Box
+           - Display a dialog box prompting the user to input a value
+          - Contains a text input field an "OK" button, and a "Cancel" button.
+          - Return the input value as a string or null if "Cancel" is clicked.
+
+
+Q15=>What is the use of Void (0)?  
+Ans->The  Void(0) is used to evaluate an expression without returning a value. The keyword void is unary operator tat discards the return value of an expression and always evaluate to undefine.
+
+
+Q16=> How can a page be forced to load another page in JavaScript? 
+Ans->In JavaScript you can force to load another page using the window.location object. Here are the primary methods:
+             
+                 window.location.href = "https://example.com";
+
+
+Q17=>What are the disadvantages of using innerHTML in JavaScript? 
+Ans->Disadvantages of using innerHTML in JavaScript are:-
+           i>Security risk
+          ii>Overwriting Existing Content
+         iii>Performance Concerns
+         iv>Readability and Maintainability
+         v>Lack of Validation
+    
+
+         
+
+          
+       
+      
+       
+
+
+        
  
 
 
